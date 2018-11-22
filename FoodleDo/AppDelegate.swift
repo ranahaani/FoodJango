@@ -7,15 +7,26 @@
 //
 
 import UIKit
-
+import IQKeyboardManagerSwift
+import GoogleMaps
+import GooglePlaces
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+   
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyChtTHqzxTdhM0_vU5Do8AL7JYg2EMN-qs")
+        GMSPlacesClient.provideAPIKey("AIzaSyChtTHqzxTdhM0_vU5Do8AL7JYg2EMN-qs")
+        IQKeyboardManager.shared.enable = true
+        if UserDefaults.standard.object(forKey: "token") != nil {
+            let rootViewController = self.window!.rootViewController as! UINavigationController
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let RestAreaTableViewController = mainStoryboard.instantiateViewController(withIdentifier: "RestAreaViewController") as! RestAreaViewController
+            rootViewController.pushViewController(RestAreaTableViewController, animated: true)
+        }
         return true
     }
 

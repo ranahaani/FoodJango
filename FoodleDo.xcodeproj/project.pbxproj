@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18349C9C214402BB00C40C82 /* RestArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18349C9B214402BB00C40C82 /* RestArea.swift */; };
+		18349C9E214405E400C40C82 /* RestAreaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18349C9D214405E400C40C82 /* RestAreaTableViewCell.swift */; };
+		18349CA02144099A00C40C82 /* RestAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18349C9F2144099A00C40C82 /* RestAreaViewController.swift */; };
+		18349CA9214FABC600C40C82 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18349CA8214FABC600C40C82 /* RestaurantsViewController.swift */; };
+		18349CAB214FAC2100C40C82 /* RestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18349CAA214FAC2100C40C82 /* RestaurantsTableViewCell.swift */; };
+		18349CAE214FB30100C40C82 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18349CAD214FB30100C40C82 /* MenuViewController.swift */; };
+		6140B09F14AA004A63D7AA51 /* Pods_FoodleDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE2472B67ED2BE82FE356F5 /* Pods_FoodleDo.framework */; };
+		6C67ED152151100900CEA04D /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67ED142151100900CEA04D /* Restaurants.swift */; };
+		6C67ED172151161D00CEA04D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67ED162151161D00CEA04D /* Menu.swift */; };
+		6CA2EB3E215B7354001FCFD6 /* MenuDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2EB3D215B7354001FCFD6 /* MenuDetails.swift */; };
+		6CA2EB40215BA099001FCFD6 /* MenuDetailTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2EB3F215BA099001FCFD6 /* MenuDetailTableViewCell1.swift */; };
+		6CCD8A04213EFDFE00527A98 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCD8A03213EFDFE00527A98 /* LoginViewController.swift */; };
+		6CD5D14A2164A36400C97E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5D1492164A36400C97E57 /* Assets.xcassets */; };
+		6CD86C3E219EB3A2005C7237 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD86C3D219EB3A2005C7237 /* SignUpViewController.swift */; };
 		E02718302114548D002EEA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E027182F2114548D002EEA06 /* AppDelegate.swift */; };
-		E02718322114548D002EEA06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02718312114548D002EEA06 /* ViewController.swift */; };
 		E02718352114548D002EEA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02718332114548D002EEA06 /* Main.storyboard */; };
-		E027183721145490002EEA06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E027183621145490002EEA06 /* Assets.xcassets */; };
 		E027183A21145490002EEA06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E027183821145490002EEA06 /* LaunchScreen.storyboard */; };
 		E027184521145490002EEA06 /* FoodleDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E027184421145490002EEA06 /* FoodleDoTests.swift */; };
 		E027185021145490002EEA06 /* FoodleDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E027184F21145490002EEA06 /* FoodleDoUITests.swift */; };
+		E05CA7A3EC47D19010E9649B /* Pods_FoodleDoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9D9FB96D2DDE15F27802E5 /* Pods_FoodleDoTests.framework */; };
+		F6824DBDACA7586206C55B8C /* Pods_FoodleDoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FAA58950D57CA54A9243FEA /* Pods_FoodleDoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +48,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18349C9B214402BB00C40C82 /* RestArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestArea.swift; sourceTree = "<group>"; };
+		18349C9D214405E400C40C82 /* RestAreaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAreaTableViewCell.swift; sourceTree = "<group>"; };
+		18349C9F2144099A00C40C82 /* RestAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAreaViewController.swift; sourceTree = "<group>"; };
+		18349CA8214FABC600C40C82 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		18349CAA214FAC2100C40C82 /* RestaurantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsTableViewCell.swift; sourceTree = "<group>"; };
+		18349CAD214FB30100C40C82 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1BE2472B67ED2BE82FE356F5 /* Pods_FoodleDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodleDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A145FC2C207DFB96AE11E34 /* Pods-FoodleDoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodleDoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodleDoUITests/Pods-FoodleDoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F137E1BC84DCA70BFF72D83 /* Pods-FoodleDoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodleDoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodleDoTests/Pods-FoodleDoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C67ED142151100900CEA04D /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		6C67ED162151161D00CEA04D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		6CA2EB3D215B7354001FCFD6 /* MenuDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetails.swift; sourceTree = "<group>"; };
+		6CA2EB3F215BA099001FCFD6 /* MenuDetailTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailTableViewCell1.swift; sourceTree = "<group>"; };
+		6CCD8A03213EFDFE00527A98 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6CD5D1492164A36400C97E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CD86C3D219EB3A2005C7237 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6FAA58950D57CA54A9243FEA /* Pods_FoodleDoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodleDoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B191119821B2CE3FD83FC5 /* Pods-FoodleDoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodleDoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodleDoUITests/Pods-FoodleDoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AECBF0073C5B5B31BB45261 /* Pods-FoodleDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodleDo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodleDo/Pods-FoodleDo.debug.xcconfig"; sourceTree = "<group>"; };
+		90F1C867A87F71FF7841DF6F /* Pods-FoodleDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodleDo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodleDo/Pods-FoodleDo.release.xcconfig"; sourceTree = "<group>"; };
 		E027182C2114548D002EEA06 /* FoodleDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodleDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E027182F2114548D002EEA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E02718312114548D002EEA06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E02718342114548D002EEA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E027183621145490002EEA06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E027183921145490002EEA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E027183B21145490002EEA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E027184021145490002EEA06 /* FoodleDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodleDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +79,8 @@
 		E027184B21145490002EEA06 /* FoodleDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodleDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E027184F21145490002EEA06 /* FoodleDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodleDoUITests.swift; sourceTree = "<group>"; };
 		E027185121145490002EEA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE108137342DCA1E7B017E75 /* Pods-FoodleDoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodleDoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodleDoTests/Pods-FoodleDoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF9D9FB96D2DDE15F27802E5 /* Pods_FoodleDoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodleDoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6140B09F14AA004A63D7AA51 /* Pods_FoodleDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05CA7A3EC47D19010E9649B /* Pods_FoodleDoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +104,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6824DBDACA7586206C55B8C /* Pods_FoodleDoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18349C5C213F151200C40C82 /* Rest Area */ = {
+			isa = PBXGroup;
+			children = (
+				18349C9B214402BB00C40C82 /* RestArea.swift */,
+				18349C9D214405E400C40C82 /* RestAreaTableViewCell.swift */,
+				18349C9F2144099A00C40C82 /* RestAreaViewController.swift */,
+			);
+			path = "Rest Area";
+			sourceTree = "<group>";
+		};
+		18349CA7214FABA800C40C82 /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				18349CA8214FABC600C40C82 /* RestaurantsViewController.swift */,
+				18349CAA214FAC2100C40C82 /* RestaurantsTableViewCell.swift */,
+				6C67ED142151100900CEA04D /* Restaurants.swift */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		18349CAC214FB2DC00C40C82 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				18349CAD214FB30100C40C82 /* MenuViewController.swift */,
+				6C67ED162151161D00CEA04D /* Menu.swift */,
+				6CA2EB3D215B7354001FCFD6 /* MenuDetails.swift */,
+				6CA2EB3F215BA099001FCFD6 /* MenuDetailTableViewCell1.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		447B0591E80DD248FAF14FBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AECBF0073C5B5B31BB45261 /* Pods-FoodleDo.debug.xcconfig */,
+				90F1C867A87F71FF7841DF6F /* Pods-FoodleDo.release.xcconfig */,
+				2F137E1BC84DCA70BFF72D83 /* Pods-FoodleDoTests.debug.xcconfig */,
+				FE108137342DCA1E7B017E75 /* Pods-FoodleDoTests.release.xcconfig */,
+				83B191119821B2CE3FD83FC5 /* Pods-FoodleDoUITests.debug.xcconfig */,
+				2A145FC2C207DFB96AE11E34 /* Pods-FoodleDoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CCD8A02213EFD7E00527A98 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6CCD8A03213EFDFE00527A98 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6CD86C3C219EA197005C7237 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				6CD86C3D219EB3A2005C7237 /* SignUpViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		BC799FD361BBF436A612BDFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE2472B67ED2BE82FE356F5 /* Pods_FoodleDo.framework */,
+				FF9D9FB96D2DDE15F27802E5 /* Pods_FoodleDoTests.framework */,
+				6FAA58950D57CA54A9243FEA /* Pods_FoodleDoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E02718232114548D002EEA06 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +188,8 @@
 				E027184321145490002EEA06 /* FoodleDoTests */,
 				E027184E21145490002EEA06 /* FoodleDoUITests */,
 				E027182D2114548D002EEA06 /* Products */,
+				447B0591E80DD248FAF14FBB /* Pods */,
+				BC799FD361BBF436A612BDFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +206,14 @@
 		E027182E2114548D002EEA06 /* FoodleDo */ = {
 			isa = PBXGroup;
 			children = (
+				6CD86C3C219EA197005C7237 /* Signup */,
+				18349CAC214FB2DC00C40C82 /* Menu */,
+				18349CA7214FABA800C40C82 /* Restaurants */,
+				18349C5C213F151200C40C82 /* Rest Area */,
+				6CCD8A02213EFD7E00527A98 /* Login */,
 				E027182F2114548D002EEA06 /* AppDelegate.swift */,
-				E02718312114548D002EEA06 /* ViewController.swift */,
 				E02718332114548D002EEA06 /* Main.storyboard */,
-				E027183621145490002EEA06 /* Assets.xcassets */,
+				6CD5D1492164A36400C97E57 /* Assets.xcassets */,
 				E027183821145490002EEA06 /* LaunchScreen.storyboard */,
 				E027183B21145490002EEA06 /* Info.plist */,
 			);
@@ -132,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E027185421145490002EEA06 /* Build configuration list for PBXNativeTarget "FoodleDo" */;
 			buildPhases = (
+				C4F1D44AABC526B5436A4799 /* [CP] Check Pods Manifest.lock */,
 				E02718282114548D002EEA06 /* Sources */,
 				E02718292114548D002EEA06 /* Frameworks */,
 				E027182A2114548D002EEA06 /* Resources */,
+				3F08DCF91DBF2F478B90A3CB /* [CP] Embed Pods Frameworks */,
+				EEE97B89F8F64D9F287795A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E027185721145490002EEA06 /* Build configuration list for PBXNativeTarget "FoodleDoTests" */;
 			buildPhases = (
+				6481287650283DB820E9FB9F /* [CP] Check Pods Manifest.lock */,
 				E027183C21145490002EEA06 /* Sources */,
 				E027183D21145490002EEA06 /* Frameworks */,
 				E027183E21145490002EEA06 /* Resources */,
@@ -167,6 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E027185A21145490002EEA06 /* Build configuration list for PBXNativeTarget "FoodleDoUITests" */;
 			buildPhases = (
+				8060470988F3B4EF00DEB1CA /* [CP] Check Pods Manifest.lock */,
 				E027184721145490002EEA06 /* Sources */,
 				E027184821145490002EEA06 /* Frameworks */,
 				E027184921145490002EEA06 /* Resources */,
@@ -193,13 +311,16 @@
 				TargetAttributes = {
 					E027182B2114548D002EEA06 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 					E027183F21145490002EEA06 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = E027182B2114548D002EEA06;
 					};
 					E027184A21145490002EEA06 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = E027182B2114548D002EEA06;
 					};
 				};
@@ -230,7 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E027183A21145490002EEA06 /* LaunchScreen.storyboard in Resources */,
-				E027183721145490002EEA06 /* Assets.xcassets in Resources */,
+				6CD5D14A2164A36400C97E57 /* Assets.xcassets in Resources */,
 				E02718352114548D002EEA06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +372,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F08DCF91DBF2F478B90A3CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodleDo/Pods-FoodleDo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableSegmentedControl/ScrollableSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodleDo/Pods-FoodleDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6481287650283DB820E9FB9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodleDoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8060470988F3B4EF00DEB1CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodleDoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F1D44AABC526B5436A4799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodleDo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE97B89F8F64D9F287795A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodleDo/Pods-FoodleDo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodleDo/Pods-FoodleDo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E02718282114548D002EEA06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E02718322114548D002EEA06 /* ViewController.swift in Sources */,
+				18349C9C214402BB00C40C82 /* RestArea.swift in Sources */,
+				18349CAB214FAC2100C40C82 /* RestaurantsTableViewCell.swift in Sources */,
+				18349CA9214FABC600C40C82 /* RestaurantsViewController.swift in Sources */,
+				18349C9E214405E400C40C82 /* RestAreaTableViewCell.swift in Sources */,
+				6CA2EB3E215B7354001FCFD6 /* MenuDetails.swift in Sources */,
+				6CA2EB40215BA099001FCFD6 /* MenuDetailTableViewCell1.swift in Sources */,
+				6C67ED172151161D00CEA04D /* Menu.swift in Sources */,
+				6CCD8A04213EFDFE00527A98 /* LoginViewController.swift in Sources */,
+				6CD86C3E219EB3A2005C7237 /* SignUpViewController.swift in Sources */,
 				E02718302114548D002EEA06 /* AppDelegate.swift in Sources */,
+				18349CA02144099A00C40C82 /* RestAreaViewController.swift in Sources */,
+				6C67ED152151100900CEA04D /* Restaurants.swift in Sources */,
+				18349CAE214FB30100C40C82 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +663,7 @@
 		};
 		E027185521145490002EEA06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AECBF0073C5B5B31BB45261 /* Pods-FoodleDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,13 +675,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ibii.FoodleDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E027185621145490002EEA06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F1C867A87F71FF7841DF6F /* Pods-FoodleDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,13 +694,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ibii.FoodleDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		E027185821145490002EEA06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F137E1BC84DCA70BFF72D83 /* Pods-FoodleDoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,7 +715,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ibii.FoodleDoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodleDo.app/FoodleDo";
 			};
@@ -485,6 +723,7 @@
 		};
 		E027185921145490002EEA06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE108137342DCA1E7B017E75 /* Pods-FoodleDoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,7 +737,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ibii.FoodleDoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodleDo.app/FoodleDo";
 			};
@@ -506,6 +745,7 @@
 		};
 		E027185B21145490002EEA06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B191119821B2CE3FD83FC5 /* Pods-FoodleDoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -518,7 +758,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ibii.FoodleDoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FoodleDo;
 			};
@@ -526,6 +766,7 @@
 		};
 		E027185C21145490002EEA06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A145FC2C207DFB96AE11E34 /* Pods-FoodleDoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,7 +779,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ibii.FoodleDoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FoodleDo;
 			};
