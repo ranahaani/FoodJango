@@ -8,13 +8,14 @@
 
 import Foundation
 class Menu: NSObject {
-    
-    var menu_id: String?
-    var name : String?
+    var category_id: String?
+    var title : String?
     var restaurant_id : String?
+    
     init?(dic : [String: Any]) {
-        self.menu_id = dic["menu_id"] as? String
-        self.name = dic["name"] as? String
+        self.category_id=dic["category_id"] as? String
+        self.title = dic["title"] as? String
         self.restaurant_id = dic["restaurant_id"] as? String
     }
 }
+

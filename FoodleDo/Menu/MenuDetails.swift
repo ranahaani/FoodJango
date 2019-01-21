@@ -8,16 +8,18 @@
 
 import Foundation
 class MenuDetails: NSObject {
-    
+    var category_id: String?
     var name: String?
     var food_name : String?
     var food_description : String?
     var price : String?
-    
+    var image: String?
     init?(dic : [String: Any]) {
         self.name = dic["name"] as? String
-        self.food_name = dic["food_name"] as? String
+        self.food_name = dic["foodname"] as? String
         self.food_description = dic["food_description"] as? String
         self.price = dic["price"] as? String
+        self.category_id = dic["category_id"] as? String
+        self.image = dic["fooditem_image"] as? String
     }
 }

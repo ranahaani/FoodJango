@@ -39,7 +39,13 @@ class SignUpViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-  
+    @IBAction func Signup(_ sender: UIButton){
+        
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let secondViewController = mainStoryboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        self.navigationController!.pushViewController(secondViewController, animated: true)
+
+    }
     @IBAction func SignUpButton(_ sender: Any) {
     
         if NameTextField.text == "" || UserNameTextField.text == "" || EmailTetField.text == "" || MobileNoTextField.text == "" || PasswordTextField.text == ""

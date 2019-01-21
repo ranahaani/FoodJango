@@ -23,7 +23,13 @@ class LoginViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: animated);
         super.viewWillDisappear(animated)
     }
-    
+    @IBAction func Signin(_ sender: UIButton){
+        
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let secondViewController = mainStoryboard.instantiateViewController(withIdentifier: "SignupVieController") as! SignUpViewController
+        self.navigationController!.pushViewController(secondViewController, animated: true)
+
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
@@ -49,7 +55,6 @@ class LoginViewController: UIViewController {
             let url = URL.init(string: "https://foodjango.000webhostapp.com/login.php")
             Alamofire.request(url!, method: .post, parameters: params).responseJSON {
                 (response) in
-                print(response)
                 if let Json = response.result.value{
                     print(Json)
                     let dic = Json as! [Any]

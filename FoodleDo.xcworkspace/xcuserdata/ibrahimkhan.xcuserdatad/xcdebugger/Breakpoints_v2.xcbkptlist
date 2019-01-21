@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FoodleDo/Signup/SignUpViewController.swift"
-            timestampString = "564392209.2730449"
+            timestampString = "565797488.967119"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "SignUpButton(_:)"
             landmarkType = "7">
          </BreakpointContent>

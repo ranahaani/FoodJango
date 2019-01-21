@@ -52,7 +52,7 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
         vc.restAreaId = self.restAreaId
-        vc.indexPath = indexPath.row + 7
+        vc.indexPath = indexPath.row
         if restauratnsList[indexPath.row].image != nil{
             let myImage = UIImage(named:restauratnsList[indexPath.row].image!)
             let image = UIImageView(image: myImage)
@@ -74,11 +74,9 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
          Alamofire.request(url!, method: .get, parameters: params).responseJSON{ response  in
             if response.result.isSuccess{
                 let json = response.result.value as! [Any]
-                print(json,"JSON Data")
                 for obj in json {
                     if let restaurant = Restauratns.init(dic: obj as! [String : Any]) {
                         self.restauratnsList.append(restaurant)
-                        print(restaurant.image,"Resturant Details")
                         self.restaurantTableView.reloadData()
                     }
                     else{

@@ -26,6 +26,14 @@ class RestAreaViewController: UIViewController, GMSMapViewDelegate, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(refresh(_:)), for: .valueChanged)
+        
+        if #available(iOS 10.0, *) {
+            restAreaTableView.refreshControl = refreshControl
+        } else {
+            restAreaTableView.backgroundView = refreshControl
+        }
         self.title = "Rest Areas"
         self.callApi()
         self.navigationItem.setHidesBackButton(true, animated:true)
@@ -40,6 +48,10 @@ class RestAreaViewController: UIViewController, GMSMapViewDelegate, UITableViewD
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.isMyLocationEnabled = true
         self.locationManager.delegate = self
+    }
+    @objc func refresh(_ refreshControl: UIRefreshControl) {
+        restAreaTableView.reloadData()
+        refreshControl.endRefreshing()
     }
     override func viewWillAppear(_ animated: Bool) {
         
@@ -71,6 +83,7 @@ class RestAreaViewController: UIViewController, GMSMapViewDelegate, UITableViewD
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RestAreaTableViewCell", for: indexPath) as! RestAreaTableViewCell
         cell.nameLabel.text = restAreaList[indexPath.row].name
+        
         cell.distanceLabel.text = restAreaList[indexPath.row].bound
         return cell
     }

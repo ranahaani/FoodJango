@@ -8,6 +8,8 @@ target 'FoodleDo' do
  pod 'IQKeyboardManagerSwift'
  pod 'Alamofire'
  pod 'GoogleMaps'
+ pod 'M13Checkbox'
+ pod 'SVProgressHUD'
  pod 'GooglePlaces'
  pod 'SDWebImage/WebP'
 	
